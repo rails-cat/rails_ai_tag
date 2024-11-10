@@ -10,14 +10,14 @@ Gem::Specification.new do |spec|
 
   spec.summary     = "Custom Rails helper for AI-generated image tags"
   spec.description = "A gem that extends Rails helpers with AI-powered image generation. Current functionality includes a custom image_tag helper that generates images based on a description."
-  spec.homepage = "https://rails-cat.github.io/"
+  spec.homepage = "https://github.com/rails-cat/rails_ai_tag"
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://rails-cat.github.io/"
-  spec.metadata["changelog_uri"] = "https://rails-cat.github.io/"
+  spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["changelog_uri"] = spec.homepage
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
